@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+.card{
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: solid 15px;
+    border-color: white;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.close{
+    margin-bottom: auto;
+    align-self: flex-end;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20cm;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
