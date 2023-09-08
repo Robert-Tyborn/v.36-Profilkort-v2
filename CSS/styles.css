@@ -26,6 +26,18 @@ img{
 .close{
     margin-bottom: auto;
     align-self: flex-end;
+    color: rgb(177, 176, 176);
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.title{
+    color: rgb(146, 145, 145);
+    line-height 1em;
 }
 
 .button{
@@ -37,5 +49,10 @@ img{
     margin-top: auto;
     text-align: center;
     line-height: 40px;
+    
+}
+
+.button:hover{
+    background-color: rgb(92, 93, 93);
 }
 
